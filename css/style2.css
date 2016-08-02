@@ -47,10 +47,10 @@ section{
 
 .play {
   display: block;
+  position: absolute;
   left: 50%;
   padding-top: 80px;
   margin: 0 0 0 -50px;
-  position: absolute;
   width: 100px;
 }
 .circle {
@@ -221,38 +221,39 @@ section{
 /* page 4 */
 .page_color_squares {
   background-color: #f6f6f4;
+  height: 490px;
 }
 
 .square_orange {
   position: absolute;
   width: 340px;
-  padding-left: 210px;
-  padding-top: 100px;
 }
 
-#square_orange_td1 {
+.square_orange_td1 {
   height: 345px;
   background-color: #f69679;
 }
 
-#square_orange_td2 {
+.square_orange_td2 {
   height: 140px;
   background-color: #fff;
 }
 
-#square_td3 {
+.square_td3 {
 height: 3px;
 background-color: #eaeaea;
 }
 
-#square_text_title {
+.square_text_title {
   padding-left: 40px;
+  margin-top: -30px;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #aeb3bf;
+  margin-bottom: 10pt;
 }
 
-#square_text_content {
+.square_text_content {
   font-style: italic;
   padding-left: 40px;
   color: #aeb3bf;
@@ -261,16 +262,15 @@ background-color: #eaeaea;
 .square_yellow {
   position: absolute;
   width: 340px;
-  padding-left: 570px;
-  padding-top: 100px;
+  padding-left: 360px;
 }
 
-#square_yellow_td1 {
+.square_yellow_td1 {
   height: 345px;
   background-color: #e8b968;
 }
 
-#square_yellow_td2 {
+.square_yellow_td2 {
   height: 140px;
   background-color: #fff;
 }
@@ -279,36 +279,35 @@ background-color: #eaeaea;
   position: absolute;
   color: #aeb3bf;
   width: 440px;
-  padding-left: 950px;
-  padding-top: 50px;
+  padding-left: 740px;
 }
 
-#color_squares_title_text {
+.color_squares_title_text {
+  font-family: "LatoLight";
   font-size: 35pt;
   font-weight: 100;
   line-height: 40pt;
-
 }
 
-#color_squares_text {
-  margin-top: 230px;
+.color_squares_second_text {
+  margin-top: 30px;
   font-weight: 100;
   line-height: 20pt;
 }
 
 .color_squares_breakets {
   position: absolute;
-  padding-left: 1350px;
-  padding-top: 530px;
+  padding-left: 1150px;
+  padding-top: 460px;
 }
 
-#color_squares_breakets_gray {
+.color_squares_breakets_gray {
   color: #959595;
   font-size: 20pt;
   font-weight: 600;
 }
 
-#color_squares_breakets_black {
+.color_squares_breakets_black {
   color: #000;
   font-size: 20pt;
   font-weight: 600; 
