@@ -15,7 +15,7 @@ header{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;}
+  background-size: cover;
 }
 
 section{
@@ -47,11 +47,12 @@ section{
 
 .play {
   display: block;
-  position: absolute;
+  position: relative;
   left: 50%;
   padding-top: 80px;
   margin: 0 0 0 -50px;
   width: 100px;
+  height: 100px;
 }
 .circle {
   position: relative;
@@ -95,7 +96,7 @@ section{
 }
 .page_main_button_position {
     left: 50%;
-    padding-top: 440px;
+    padding-top: 280px;
     margin: 0 0 0 -100px;
     position: relative;
     width: 200px;
@@ -165,7 +166,6 @@ section{
 .page_info_so_dream {
   position: absolute;
   width: 525px;
-  
 }
 
 .page_info_apple_store {
@@ -195,6 +195,7 @@ section{
   color: #fff;
   border: none;
   border-radius: 3px;
+  border: 3px solid #f69679;
   font-family: "LatoBold";
   font-size: 14pt;
   text-align: center;
@@ -206,14 +207,13 @@ section{
 .page_info_button:active {
   background-color: #fff;
   color: #f69679;
-  border: 2px solid #f69679;
-
+  border: 3px solid #f69679;
 }
 
 .page_info_button_position {
     left: 50%;
     padding-top: 530px;
-    margin: 0 0 0 -100px;
+    margin: 0 0 0 -200px;
     position: relative;
     width: 200px;
 }
@@ -316,6 +316,7 @@ background-color: #eaeaea;
 /* page 5 */
 .page_footer {
   background-color: #7accc8;
+  height: 450px;
 }
 
 .page_footer_text{
@@ -323,17 +324,16 @@ background-color: #eaeaea;
   font-weight: 200;
   line-height: 20pt;
   color: #fff;
-  
 }
 
-#page_footer_text_one{
+.page_footer_text_one{
   position: absolute;
   padding-left: 210px;
   width: 400px;
   padding-top: 100px;
 }
 
-#page_footer_text_two{
+.page_footer_text_two{
   position: absolute;
   padding-left: 630px;
   width: 220px;
@@ -345,7 +345,7 @@ background-color: #eaeaea;
   padding-left: 1270px;
   padding-top: 100px;
   line-height: 2.5;
-    color: white;
+  color: white;
   text-decoration: none;
 }
 
