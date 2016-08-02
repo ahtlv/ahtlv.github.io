@@ -1,0 +1,379 @@
+* { margin: 0; padding: 0; }
+
+p {
+  font-family: "LatoRegular";
+}
+
+h1 {
+  font-family: "LatoLight";
+  font-size: 40pt;
+}
+header{
+  background: url("../src/background.png") no-repeat;
+  background-position: center;
+  height: 880px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+}
+
+section{
+  position: relative;
+}
+
+.content{
+  padding: 100px 0 150px 210px;
+}
+
+/* page 1 */
+.main_header{
+  position: relative;
+}
+
+.page_main_name {
+  color: #fff;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.page_main_about {
+  font-style: italic;
+  line-height: 200%;
+  color: #7accc8;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.play {
+  display: block;
+  left: 50%;
+  padding-top: 80px;
+  margin: 0 0 0 -50px;
+  position: absolute;
+  width: 100px;
+}
+.circle {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 10px solid white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.triangle {
+  position: relative;
+  left: 45px;
+  top: -65px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 20px solid white;
+  border-bottom: 15px solid transparent;
+}
+
+.page_main_button {
+  display: block;
+  background-color: #7accc8;
+  width: 200px;
+  padding: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-family: "LatoBold";
+  font-size: 14pt;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+.page_main_button:hover,
+.page_main_button:active {
+  background-color: #fff;
+  color: #7accc8;
+}
+.page_main_button_position {
+    left: 50%;
+    padding-top: 440px;
+    margin: 0 0 0 -100px;
+    position: relative;
+    width: 200px;
+}
+
+/* page 2 */
+.page_see {
+  background-color: #e8b968;
+}
+
+.page_see_text {
+  color: #fff;
+  width: 700px;
+}
+
+.page_see_text_about {
+  margin-top: 50px;
+  font-weight: 100;
+  line-height: 20pt;
+}
+
+.page_see_button {
+  display: block;
+  margin-top: 50px;
+  width: 280px;
+  padding: 20px;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  font-family: "LatoBold";
+  font-size: 14pt;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+.page_see_button:hover,
+.page_see_button:active {
+  background-color: #fff;
+  color: #000;
+}
+.page_see_dark{
+  background-color: #5b6869;
+  height: 600px;
+  }
+
+.page_see_ipad{
+  background-image: url("../src/iPad.png") no-repeat;
+  position: absolute;
+  left: 970px;
+  margin-top: -687px;
+  }
+
+/* page 3 */
+.page_info {
+  background-color: #fff;
+  font-size: 12pt;
+  font-weight: 200;
+  line-height: 20pt;
+  color: #aeb3bf;
+}
+
+.page_info_title {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.page_info_so_dream {
+  position: absolute;
+  width: 525px;
+  
+}
+
+.page_info_apple_store {
+  position: absolute;
+  width: 525px;
+  padding-top: 270px;
+}
+
+.page_info_more_buzz {
+  position: absolute;
+  padding-left: 660px;
+  width: 525px;
+  }
+
+.page_info_extra{
+  position: absolute;
+  padding-left: 660px;
+  width: 525px;
+  padding-top: 270px;
+}
+
+.page_info_button {
+  display: block;
+  background-color: #f69679;
+  margin-top: 50px;
+  padding: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-family: "LatoBold";
+  font-size: 14pt;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  width: 200px;
+}
+.page_info_button:hover,
+.page_info_button:active {
+  background-color: #fff;
+  color: #f69679;
+  border: 2px solid #f69679;
+
+}
+
+.page_info_button_position {
+    left: 50%;
+    padding-top: 530px;
+    margin: 0 0 0 -100px;
+    position: relative;
+    width: 200px;
+}
+
+/* page 4 */
+.page_color_squares {
+  background-color: #f6f6f4;
+}
+
+.square_orange {
+  position: absolute;
+  width: 340px;
+  padding-left: 210px;
+  padding-top: 100px;
+}
+
+#square_orange_td1 {
+  height: 345px;
+  background-color: #f69679;
+}
+
+#square_orange_td2 {
+  height: 140px;
+  background-color: #fff;
+}
+
+#square_td3 {
+height: 3px;
+background-color: #eaeaea;
+}
+
+#square_text_title {
+  padding-left: 40px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #aeb3bf;
+}
+
+#square_text_content {
+  font-style: italic;
+  padding-left: 40px;
+  color: #aeb3bf;
+}
+
+.square_yellow {
+  position: absolute;
+  width: 340px;
+  padding-left: 570px;
+  padding-top: 100px;
+}
+
+#square_yellow_td1 {
+  height: 345px;
+  background-color: #e8b968;
+}
+
+#square_yellow_td2 {
+  height: 140px;
+  background-color: #fff;
+}
+
+.color_squares_text {
+  position: absolute;
+  color: #aeb3bf;
+  width: 440px;
+  padding-left: 950px;
+  padding-top: 50px;
+}
+
+#color_squares_title_text {
+  font-size: 35pt;
+  font-weight: 100;
+  line-height: 40pt;
+
+}
+
+#color_squares_text {
+  margin-top: 230px;
+  font-weight: 100;
+  line-height: 20pt;
+}
+
+.color_squares_breakets {
+  position: absolute;
+  padding-left: 1350px;
+  padding-top: 530px;
+}
+
+#color_squares_breakets_gray {
+  color: #959595;
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+#color_squares_breakets_black {
+  color: #000;
+  font-size: 20pt;
+  font-weight: 600; 
+}
+
+/* page 5 */
+.page_footer {
+  background-color: #7accc8;
+}
+
+.page_footer_text{
+  font-size: 11pt;
+  font-weight: 200;
+  line-height: 20pt;
+  color: #fff;
+  
+}
+
+#page_footer_text_one{
+  position: absolute;
+  padding-left: 210px;
+  width: 400px;
+  padding-top: 100px;
+}
+
+#page_footer_text_two{
+  position: absolute;
+  padding-left: 630px;
+  width: 220px;
+  padding-top: 100px;
+}
+
+.page_footer_menu{
+  position: absolute;
+  padding-left: 1270px;
+  padding-top: 100px;
+  line-height: 2.5;
+    color: white;
+  text-decoration: none;
+}
+
+.page_footer_menu_link{
+  font-family: "Arial";
+  color: white;
+  text-decoration: none;
+}
+
+.page_footer_stamp{
+    left: 50%;
+    margin: 0 0 0 -25px;
+    padding-top: 330px;
+    position: absolute;
+    width: 66px;
+}
+
+.page_footer_creator_link{
+    left: 50%;
+    margin: 0 0 0 -180px;
+    padding-top: 450px;
+    position: absolute;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.page_footer_creator_link:hover,
+.page_footer_creator_link:active {
+  text-decoration: underline;
+}
